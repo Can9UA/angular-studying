@@ -1,0 +1,10 @@
+{
+  "name": "my-angular-apps",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "dependencies": {
+    "angular": "1.5.6"
+  }
+}

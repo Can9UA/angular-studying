@@ -1,0 +1,744 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"com",
+				"compositions"
+			],
+			[
+				"eve",
+				"evening"
+			],
+			[
+				"ho",
+				"hospital"
+			],
+			[
+				"ever",
+				"everywhere"
+			],
+			[
+				"mothe",
+				"mother's"
+			],
+			[
+				"some",
+				"somebody"
+			],
+			[
+				"was",
+				"wasn't"
+			],
+			[
+				"new",
+				"newspaper"
+			],
+			[
+				"mu",
+				"Mu-seum"
+			],
+			[
+				"al",
+				"always"
+			],
+			[
+				"wathe",
+				"weather"
+			],
+			[
+				"su",
+				"Saturday"
+			],
+			[
+				"has",
+				"hasn't"
+			],
+			[
+				"co",
+				"composition"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bo",
+				"bootstrap	(bower.json)"
+			],
+			[
+				"wo",
+				"would"
+			],
+			[
+				"have",
+				"haven't"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"inde",
+				"indexOf (fn)"
+			],
+			[
+				"functi",
+				"function (?)"
+			],
+			[
+				"function",
+				"function (?)"
+			],
+			[
+				"replace",
+				"replaceWith	.replaceWith()"
+			],
+			[
+				"repa",
+				"replace (fn)"
+			],
+			[
+				"slic",
+				"slice (fn)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/pug/lesson-2.pug",
+			"settings":
+			{
+				"buffer_size": 1778,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/pug/_modules/nav.pug",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/app-lesson-2.js",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 443.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ss jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"ss jason",
+				"Set Syntax: JSON"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ss jsa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Web study/Angular APP",
+		"/F/Web study/Angular APP/app",
+		"/F/Web study/Angular APP/app/js",
+		"/F/Web study/Angular APP/app/pug"
+	],
+	"file_history":
+	[
+		"/F/Web study/Angular APP/app/pug/lesson-1.pug",
+		"/F/Alex English/Home works/Упражнение 275 - 315.json",
+		"/F/Alex English/Home works/Упражнение 275 - 296.json",
+		"/F/Web study/Angular APP/app/js/app-lesson-1.js",
+		"/F/Web study/Angular APP/app/lesson-1.html",
+		"/F/Web study/Angular APP/app/js/app-lesson-2.js",
+		"/F/Web study/Angular APP/app/pug/lesson-2.pug",
+		"/F/Web study/Angular APP/app/pug/_modules/layout.pug",
+		"/E/Program Files/Sublime Text/Data/Packages/User/Pug.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/User/JavaScript.sublime-settings",
+		"/F/Web study/Angular APP/app/pug/lesson-0.pug",
+		"/F/Web study/Angular APP/app/lesson-0.html",
+		"/F/Alex English/Home works/Galicenskiy 187-192.txt",
+		"/E/Program Files/Sublime Text/Data/Packages/User/Preferences.sublime-settings",
+		"/F/Web study/Angular APP/app/pug/index.pug",
+		"/F/Web study/Angular APP/app/pug/_modules/nav.pug",
+		"/F/Web study/Angular APP/gulpfile.js",
+		"/F/Web study/Angular APP/.jshintrc",
+		"/E/Program Files/Sublime Text/Data/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/F/Projects/tenant-hub/.jshintrc",
+		"/E/Program Files/Sublime Text/Data/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/JSHint Gutter/.jshintrc",
+		"/E/Program Files/Sublime Text/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/F/Web study/Angular APP/app/js/lesson-1.js",
+		"/F/Web study/Angular APP/bower_components/angular/angular.min.js",
+		"/F/Web study/Angular APP/app/index.html",
+		"/F/Alex English/Home works/Galicenskiy 263-.txt",
+		"/F/Projects/rest-super-public-sites/app/jade/_modules/layout.jade",
+		"/F/Projects/rest-super-public-sites/Gruntfile.js",
+		"/F/Web study/Angular APP/package.json",
+		"/E/Program Files/Sublime Text/Data/Packages/User/Plain text.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/User/JSON.sublime-settings",
+		"/F/Web study/Gulp tests/tenant-hub-styling/gulpfile.js",
+		"/F/Web study/Gulp tests/tenant-hub-styling/templates/libertyplace/app/css/template.css",
+		"/F/Web study/Gulp tests/4. Браузер синк Обработка Ошибок/gulpfile.js",
+		"/F/Web study/Gulp tests/tenant-hub-styling/dist/css/template.css",
+		"/F/Web study/Gulp tests/tenant-hub-styling/my-styles/libertyplace/template.scss",
+		"/F/Web study/Gulp tests/2. Сборка стилей/gulpfile.js",
+		"/F/Web study/Gulp tests/tenant-hub-styling/package.json",
+		"/F/Web study/Gulp tests/4. Браузер синк Обработка Ошибок/app/sass/list.scss",
+		"/F/Web study/Gulp tests/1. Пути и копирование/gulpfile.js",
+		"/F/Web study/Gulp tests/6. Структура/tasks/styles.js",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/gulpfile.js",
+		"/F/Web study/Gulp tests/2. Сборка стилей/package.json",
+		"/F/Web study/Gulp tests/tenant-hub-styling/libertyplace/template.scss",
+		"/F/Web study/Gulp tests/tenant-hub-styling/chifley/template.scss",
+		"/F/Web study/Gulp tests/tenant-hub-styling/530collins/template.scss",
+		"/F/Web study/Gulp tests/tenant-hub-styling/template.scss",
+		"/F/Projects/tenant-hub-teamexperior/dist/css/template.css",
+		"/F/Web study/Gulp tests/6. Структура/app/sass/list.scss",
+		"/F/Web study/Gulp tests/6. Структура/gulpfile.js",
+		"/F/Web study/Gulp tests/gulp-screencast-master/12-organize-final/gulpfile.js",
+		"/F/Web study/Gulp tests/gulp-screencast-master/12-organize-lazy-styles/gulpfile.js",
+		"/F/Web study/Gulp tests/5 Свои плагины/gulpfile.js",
+		"/F/Web study/Gulp tests/mp4/mp4/01-what-is-gulp.mp4",
+		"/F/Web study/Gulp tests/4. Браузер синк/app/sass/list.scss",
+		"/F/Web study/Gulp tests/4. Браузер синк/gulpfile.js",
+		"/F/Web study/Gulp tests/4. Браузер синк/app/sass/style.scss",
+		"/F/Web study/Gulp tests/4. Браузер синк/app/css/list.css",
+		"/F/Web study/Gulp tests/4. Браузер синк/app/index.html",
+		"/F/Web study/Gulp tests/4. Браузер синк/app/css/style.css",
+		"/F/Web study/Gulp tests/4. Браузер синк/markup/index.html",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/css/style.css",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/css/list.css",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/markup/css/all.css",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/css/style.scss",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/css/style1.scss",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/sass/style.scss",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/index.html",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/markup/index.html",
+		"/F/Web study/Gulp tests/3. Обнавление при редактирвоании/app/css/all.css",
+		"/E/Program Files/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
+		"/F/Web study/Gulp tests/Сборка стилей/gulpfile.js",
+		"/F/Web study/Gulp tests/Сборка стилей/app/css/style.css",
+		"/F/Web study/Gulp tests/Сборка стилей/app/css/style1.css",
+		"/F/Web study/Gulp tests/Сборка стилей/app/sass/style.scss",
+		"/F/Web study/Gulp tests/Сборка стилей/app/sass/style1.scss",
+		"/F/Web study/Gulp tests/Пути и копирование/gulpfile.js",
+		"/F/Web study/Gulp tests/Сборка стилей/package.json",
+		"/E/Program Files/Sublime Text/Data/Packages/User/Distraction Free.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/User/SCSS.sublime-settings",
+		"/F/Projects/tenant-hub-teamexperior/app/views/layouts/dashboard.html",
+		"/F/Web study/Angular APP/bower.json",
+		"/F/Web study/Angular APP/app/pug/_modules/layout.jade",
+		"/F/Web study/Angular APP/app/pug/index.jade",
+		"/F/Projects/etiquettemoms/app/jade/modules/layout.jade",
+		"/F/Web study/Angular APP/app/pug/_dev/variables.jade",
+		"/F/Web study/Angular APP/app/pug/_modules/footer.jade",
+		"/F/Web study/Angular APP/app/pug/_modules/header.jade",
+		"/F/Projects/rest-super-public-sites/app/jade/index.jade",
+		"/E/Program Files/Sublime Text/Data/Packages/User/ESLint.sublime-settings",
+		"/F/Web study/Angular APP/.eslintrc",
+		"/F/Web study/Angular APP/js/main.js",
+		"/F/Web study/Angular APP/.jscsrc",
+		"/F/Projects/etiquettemoms/.jscsrc",
+		"/E/Program Files/Sublime Text/Data/Packages/ESLint/ESLint.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/E/Program Files/Sublime Text/Data/Packages/ESLint/linter.js",
+		"/F/Projects/etiquettemoms/.jshintrc",
+		"/C/Program Files/ConEmu/ConEmu.xml",
+		"/C/Program Files/ConEmu.xml",
+		"/C/Program Files/ConEmu/2ConEmu.xml",
+		"/F/Projects/etiquettemoms/bower.json",
+		"/F/Web study/Angular APP/node_modules/gulp/package.json",
+		"/F/Projects/etiquettemoms/package.json",
+		"/C/Users/Alexandr/Desktop/План.txt",
+		"/F/Alex English/Home works/Galicenskiy 254-255.txt",
+		"/F/Projects/tenant-hub-teamexperior/package.json",
+		"/F/Alex English/Home works/Grammarway page 251 - 262.json",
+		"/F/Projects/tenant-hub-teamexperior/gruntfile.js",
+		"/F/Alex English/16 времен.jpg",
+		"/F/Alex English/Home works/Galicenskiy 225-/251 - 262.json",
+		"/F/Alex English/Упражнение 251.json",
+		"/F/Projects/etiquettemoms/app/sass/utilities/_helpers.scss",
+		"/F/Projects/etiquettemoms/app/sass/utilities/_variables.scss",
+		"/F/Projects/etiquettemoms/app/sass/utilities/_global-reset.scss",
+		"/F/Projects/etiquettemoms/app/sass/utilities/_grid.scss",
+		"/F/Projects/etiquettemoms/app/sass/molecules/_posts.scss",
+		"/F/Projects/etiquettemoms/app/sass/atoms/_form-atoms.scss",
+		"/F/Projects/etiquettemoms/app/sass/atoms/_buttons.scss",
+		"/F/Projects/etiquettemoms/app/jade/modules/header.jade",
+		"/F/Projects/etiquettemoms/app/jade/modules/footer.jade",
+		"/F/Projects/etiquettemoms/app/jade/blog.jade",
+		"/F/Projects/etiquettemoms/app/sass/templates/_pages.scss",
+		"/F/Projects/etiquettemoms/app/sass/atoms/_typography.scss",
+		"/F/Projects/etiquettemoms/app/jade/blog-single.jade",
+		"/F/Projects/etiquettemoms/app/sass/molecules/_auxiliary.scss",
+		"/F/Projects/etiquettemoms/app/sass/molecules/_article-entry.scss"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 194.0,
+		"where_history":
+		[
+			"",
+			"*.jade"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"red",
+			"random",
+			"Incomplete",
+			"17",
+			"¬",
+			"17",
+			"although",
+			"listened",
+			"although",
+			"will",
+			"she",
+			"18",
+			"¬",
+			"countriesCtrl",
+			"table",
+			"\"",
+			"hover",
+			", showThisCell",
+			"main",
+			"097823",
+			"something",
+			"false",
+			"Bout",
+			"tasks",
+			"action",
+			"\"",
+			"never",
+			"this",
+			"14",
+			"английски",
+			"¬",
+			"evenint",
+			" \n",
+			"was",
+			".",
+			"15",
+			"¬",
+			"make",
+			"¬",
+			"have",
+			"you",
+			"done",
+			"told",
+			"often",
+			"the",
+			"make",
+			"¬",
+			"shall",
+			"asked",
+			"They",
+			"shall",
+			"¬",
+			"  ",
+			"were",
+			"will",
+			"says",
+			"will",
+			"¬",
+			"took",
+			"feels",
+			"spent",
+			"has",
+			"¬",
+			"already",
+			"discussed",
+			"newItemName",
+			"value",
+			"Coco",
+			"false",
+			"countriesCtrl",
+			"Ukraine",
+			"countries",
+			"capital",
+			"country",
+			"¬",
+			"translated",
+			"brought",
+			"bring",
+			"¬",
+			"\n)",
+			"¬",
+			"I",
+			"15",
+			"¬",
+			"have",
+			"14",
+			"¬",
+			"21",
+			"¬",
+			"-",
+			"¬",
+			"for",
+			"¬",
+			"find",
+			"is",
+			"are",
+			"was",
+			"¬",
+			"  ",
+			"¬",
+			"stamps",
+			"  ",
+			"¬",
+			"are",
+			"already",
+			"have",
+			"from",
+			"already",
+			"told",
+			"chanfe",
+			"had been living",
+			"leav",
+			"leaving",
+			"leaved",
+			"to wait",
+			"leave",
+			"jade",
+			"_modules",
+			"modules",
+			"html",
+			".",
+			"22",
+			"¬",
+			"lose",
+			"find",
+			"shaked",
+			"will",
+			"fell"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"main#main",
+			"templates.items",
+			"templates.pagination"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "F:\\Web study\\Angular APP"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/pug/lesson-2.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1640,
+								1640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/pug/_modules/nav.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/js/app-lesson-2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 201.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,50 @@
+-
+  var lessons = [{
+    index: 0,
+    tags: [
+      'controller',
+      'функции в контроллере'
+    ]
+  }, {
+    index: 1,
+    tags: [
+      'ng-non-bindable',
+      'ng-repeat',
+      '$first, $last, $middle',
+      '$even',
+      '$odd',
+      'key, val',
+      'property in task',
+      'ng-repeat-start',
+      'ng-input',
+      'ng-switch',
+      'ng-cloak - что бы не видить шаблоны ангуляра при загрузке страницы'
+    ]
+  }, {
+    index: 2,
+    tags: [
+      'работа с DOM',
+      'ng-show ng-hide',
+      'ng-if',
+      'ng-style',
+      'ng-class ng-class-even ng-class-odd'
+    ]
+  }, {
+    index: 3,
+    tags: [
+      '',
+      ''
+    ]
+  }];
+nav.navbar.navbar-default
+  .container-fluid
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav
+        each lesson in lessons
+          li
+            a(href="lesson-" + lesson.index + ".html") Lesson - #{lesson.index}
+            if lesson.tags
+              .tags-holder
+                ul
+                  each tag in lesson.tags
+                    li #{tag}

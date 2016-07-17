@@ -1,0 +1,13 @@
+{
+  "name": "my-angular-apps",
+  "version": "0.0.1",
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.0.2"
+  }
+}

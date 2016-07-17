@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    title Can9 Angular
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+    meta(name="format-detection", content="telephone=no")
+    link(rel="shortcut icon", href="images/favicon.ico", type="image/x-icon")
+    link(href='../bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+    link(href='../bower_components/bootstrap/dist/css/bootstrap-theme.min.css', rel='stylesheet', type='text/css')
+    style.
+      .navbar-nav li {position: relative;}
+      .navbar-nav .tags-holder{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        padding: 5px;
+        width: 300px;
+        background-color: #f8f8f8;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+        border-radius: 4px;
+        border: 1px solid #e7e7e7;
+      }
+      .navbar-nav a:hover + .tags-holder{display: block;}
+  body
+    script(src="../bower_components/angular/angular.js")
+    block body
+    //- script(src="../bower_components/bootstrap/dist/js/bootstrap.min.js")

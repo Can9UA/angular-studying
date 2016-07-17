@@ -1,0 +1,53 @@
+extends _modules/layout
+block body
+  include _modules/nav
+  // дериктива - тоесть ангулар приложение
+  main(ng-app="module")
+    // а это уже сам контролер
+    .container-fluid(ng-controller="studyCtrl")
+      .panel
+        h2.panel-header ng-show ng-hide ng-if
+        table.table.table-striped
+          thead
+            tr
+              th #
+              th Task
+              th Done
+              th Status ng-hide/show
+              th Status ng-if
+          tbody
+            tr(ng-repeat="task in tasks")
+              td {{$index + 1}}
+              td(ng-repeat="property in task") {{property}}
+              td
+                span(ng-hide="task.complete") Incomplete
+                span(ng-show="task.complete") Done
+              td
+                span(ng-if="!task.complete") Incomplete
+                span(ng-if="task.complete") Done
+      .panel
+        style.
+          tr.red {background-color: red;}
+          tr.green {background-color: green;}
+          tr.blue {background-color: blue;}
+        h2.panel-header We will change color only in last column but in all rows
+        .row.well
+          .col-xs-6(ng-repeat="(key, val) in settings")
+            h4 {{key}}
+            .radio(ng-repeat="button in buttonNames")
+              label
+                input(type="radio", ng-model="settings[key]", value="{{button}}")
+                | {{button}}
+        table.table
+          thead
+            tr
+              th #
+              th Task
+              th Done
+          tbody
+            tr(ng-repeat="task in tasks" ng-class="settings.rows")
+              td {{$index + 1}}
+              td {{task.action}}
+              td(ng-style="{'background-color': settings.columns}")
+                | {{task.complete}}
+  script(src="js/app-lesson-2.js")

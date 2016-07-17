@@ -1,0 +1,116 @@
+extends _modules/layout
+block body
+  include _modules/nav
+  style.
+    .odd {background-color: #ababab;}
+    .even {background-color: #f8f8f8;}
+  // дериктива - тоесть ангулар приложение
+  main(ng-app="module")
+    // а это уже сам контролер
+    .container-fluid(ng-controller="studyCtrl" ng-cloak)
+      // Однонаправленые привязки
+      .panel
+        h2.panel-header Tasks List
+        // самы популярный способ привязки через {{obj.fieldName}}
+        div.
+          There are {{tasks.length}} tasks
+        // тоже саоме но через ng-bind - может поддерживать только одну привязку если надо много ng-bind-template
+        div
+          | There are 
+          span(ng-bind="tasks.length")
+          |  tasks
+        // ! если мы по какой-то причине не захотим подставлять значение то делаем так
+        div(ng-non-bindable).
+          AngularJS will not bind this - {{tasks}}
+      // Многонаправленные привязки
+      .panel
+        h2.panel-header Tasks List
+        div This first task is: {{tasks[0].action}}
+        .from-group.well
+          label(for="firstItem") Set first item:
+          input#firstItem.form-control(name="firstItem", ng-model="tasks[0].action")
+      .panel
+        table.table
+          thead
+            tr
+              th #
+              th Task
+              th Done
+              th Random
+          tbody
+            tr(ng-repeat="task in tasks", ng-class="$even ? 'even' : 'odd'")
+              // в ангуляре есть встроенные переменные для ng-repeat $index, $odd, $even
+              td {{$index + 1}}
+              // так мы можем репитить все свойства объекта не вбивая их вручную
+              //- td(ng-repeat="property in task") {{property}}
+              // так мы можем выводить клюи и их значения
+              td(ng-repeat="(key, val) in task") {{key}} - {{val}}
+      .panel
+        table.table
+          thead
+            tr
+              th #
+              th Task
+              th Done
+              th Random
+              th Is it first or Last item
+          tbody
+            tr(ng-repeat="task in tasks", ng-class="$even ? 'even' : 'odd'")
+              td {{$index + 1}}
+              td(ng-repeat="property in task") {{property}}
+              // есть значения для repeat: $first, $last, $middle - не первое и не последнее
+              td
+                span(ng-if="$first || $last") I am first or last Item!!
+      .panel
+        table.table
+          thead
+            tr
+              th #
+              th Task
+              th Done
+              th Random
+              th Is it first or Last item
+          tbody
+            tr(ng-repeat="task in tasks", ng-class="$even ? 'even' : 'odd'")
+              td {{$index + 1}}
+              td(ng-repeat="property in task") {{property}}
+              // есть значения для repeat: $first, $last, $middle - не первое и не последнее
+              td
+                span(ng-if="$first || $last") I am first or last Item!!
+      .panel
+        table.table
+          tbody
+            tr(ng-repeat-start="task in tasks")
+              td
+                span.h4 # {{$index}}
+            tr
+              td Description {{task.action}}
+            tr(ng-repeat-end)
+              td The {{$index}} task is {{task.complete ? '': 'not'}} done
+      .panel
+        h1.h1 ng-include src="'./index.html'"
+        // ng-include тянет данные с сервера
+        ng-include(src="'index.html'")
+          p if loaded you will not see this text
+        // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        .well
+          .checkbox
+            label
+              input(type="checkbox", ng-model="noIndexPage", ng-checked="true")
+              | Switch the view
+        div(ng-include="showFile()", onload="displayMessage()")
+      .panel
+        h1.h1 ng-switch
+        .well
+          .radio(ng-repeat="button in ['Default', 'Table', 'List']")
+            label
+              input(type="radio", ng-model="data.mode", value='{{button}}', ng-checked="$first")
+              | {{button}}
+          div(ng-switch on="data.mode")
+            div(ng-switch-default)
+              p This is default!
+            div(ng-switch-when="Table")
+              p This is a table!
+            div(ng-switch-when="List")
+              p This is a list!
+  script(src="js/app-lesson-1.js")

@@ -1,0 +1,10 @@
+extends _modules/layout
+block body
+  include _modules/nav
+  // дериктива - тоесть ангулар приложение
+  main(ng-app="module")
+    // а это уже сам контролер
+    .container-fluid(ng-controller="studyCtrl")
+      .panel
+        h2.panel-header awesome!!1
+  script(src="js/app-lesson-3.js")

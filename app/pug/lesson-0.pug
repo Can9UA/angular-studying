@@ -1,0 +1,27 @@
+extends _modules/layout
+block body
+  include _modules/nav
+  // дериктива - тоесть ангулар приложение
+  main(ng-app="module")
+    // а это уже сам контролер
+    .container-fluid(ng-controller="countriesCtrl")
+      .panel(ng-repeat="country in countries")
+        h1.h1 Country: {{country.name}}
+        p AREA: {{country.area}}
+        p POPULATION: {{country.population}}
+        p CAPITAL: {{country.capital.name}}
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    .container-fluid(ng-controller="itemList")
+      h2.h2 Items List
+      .panel
+        h3.h3 Left {{remain()}} from {{items.length}}
+        table.table.table-striped
+          tr(ng-repeat="item in items")
+            td
+              input.checkbox-inline(type="checkbox" ng-model="item.done")
+            td
+              span(class="done-{{item.done}}") {{item.text}}
+        form(ng-submit="addItem()")
+          input.form-control(type="text", ng-model="newItemName", placeholder="write Item name")
+          input.btn.btn-primary(type="submit", value="Add item!")
+  script(src="js/app-lesson-0.js")
