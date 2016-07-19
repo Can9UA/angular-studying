@@ -5,8 +5,7 @@ const gulp = require('gulp'),
       browserSync = require('browser-sync').create();
 
 gulp.task('watch', function () {
-  // gulp.watch(['app/pug/**/*.pug'], gulp.series('pug-compile'));
-  gulp.watch(['app/pug/**/*.pug'], gulp.series('pug-compile', browserSync.reload));
+  gulp.watch(['app/pug/**/*.pug'], gulp.series('pug-compile'));
 });
 
 gulp.task('reload-page', function () {
@@ -17,6 +16,9 @@ gulp.task('reload-page', function () {
     startPath: 'app/'
   });
 
+  browserSync.notify('Compiling, please wait!');
+  //https://github.com/BrowserSync/browser-sync/issues/1065
+  // работает тольео если вручную изменить html файл или сохранить pug файл два раза (мб проблема в pug??)
   browserSync.watch(['app/js/*.js', 'app/*.html']).on('change', browserSync.reload);
 });
 
@@ -26,6 +28,7 @@ gulp.task('pug-compile', function () {
       pug({pretty: true})
     )
     .pipe(gulp.dest('app/'));
+    // .pipe(browserSync.stream());
 });
 
 gulp.task('default',
