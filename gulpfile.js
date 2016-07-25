@@ -3,6 +3,7 @@
 const gulp = require('gulp'),
       pug = require('gulp-pug'),
       plumber = require('gulp-plumber'),
+      gutil = require('gulp-util'),
       browserSync = require('browser-sync').create();
 
 gulp.task('watch', function () {
@@ -26,7 +27,8 @@ gulp.task('pug-compile', function () {
   return gulp.src(['app/pug/**/*.pug', '!app/pug/_*/*'])
     .pipe(plumber({
       errorHandler: function (err) {
-        console.error(err.message);
+        gutil.beep();
+        gutil.log(gutil.colors.red(err.message));
         this.emit('end'); // If you don't emit an end event, your error will not cause a crash, but your task will just hang forever and you'll have to re-start the watch process anyway. (http://blog.ibangspacebar.com/handling-errors-with-gulp-watch-and-gulp-plumber/)
       }})
     )
