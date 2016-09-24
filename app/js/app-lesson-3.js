@@ -7,7 +7,7 @@ myModule.controller('studyCtrl', function ($scope) {
     {action: 'Buy item 2', complete: false},
     {action: 'Buy item 3', complete: true},
     {action: 'Buy item 4', complete: false},
-    {action: 'Buy item 5', complete: true},
+    {action: 'Buy item 5', complete: true}
   ];
 
   $scope.buttonNames = ['red', 'green', 'blue'];

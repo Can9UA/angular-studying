@@ -13,6 +13,6 @@ myModule.controller('studyCtrl', function ($scope) {
   $scope.buttonNames = ['red', 'green', 'blue'];
   $scope.settings = {
     columns: 'green',
-    rows: 'red'
+    rows   : 'red'
   };
 });

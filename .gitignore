@@ -9,11 +9,4 @@ markup
 build
 *.html
 *.css
-.idea/Angular studying.iml
-.idea/deployment.xml
-.idea/jsLibraryMappings.xml
-.idea/libraries/Angular_studying_node_modules.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+.idea

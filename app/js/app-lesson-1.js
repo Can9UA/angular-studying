@@ -7,7 +7,7 @@ myModule.controller('studyCtrl', function ($scope) {
     {action: 'Buy item 2', complete: false, random: 097823},
     {action: 'Buy item 3', complete: true, random: 097823},
     {action: 'Buy item 4', complete: false, random: 097823},
-    {action: 'Buy item 5', complete: true, random: 097823},
+    {action: 'Buy item 5', complete: true, random: 097823}
   ];
   $scope.showFile = function () {
     return $scope.noIndexPage ? 'lesson-0.html' : 'index.html';
